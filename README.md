@@ -90,11 +90,11 @@ yarn test
   - Request body:
     ```json
     {
-            "id": 2,
-            "name": "Product A",
-            "price": 20.0,
-            "quantity": 2
-            },
+      "id": "string",
+      "name": "string",
+      "quantity": "number",
+      "price": "number"
+    }
     ```
   - Response: Updated cart contents
 

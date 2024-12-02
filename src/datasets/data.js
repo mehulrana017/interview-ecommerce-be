@@ -1,2 +1,4 @@
-export const orders = [1, 2, 3, 4, 5];
+//datasets/data.js
+export const orders = [];
+export let cart = [];
 export const discountCodes = [];

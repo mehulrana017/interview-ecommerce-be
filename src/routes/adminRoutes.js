@@ -1,6 +1,9 @@
 // src/routes/adminRoutes.js
 import express from "express";
-import { generateDiscountCode } from "../controllers/adminController.js";
+import {
+  generateDiscountCode,
+  getOrderSummary,
+} from "../controllers/adminController.js";
 
 const router = express.Router();
 
@@ -8,6 +11,6 @@ const router = express.Router();
 router.get("/generate-discount", generateDiscountCode);
 
 // Route to get the purchase summary (items purchased, total purchase amount, discount codes, etc.)
-// router.get("/summary", getPurchaseSummary);
+router.get("/summary", getOrderSummary);
 
 export default router;

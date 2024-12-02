@@ -1,4 +1,6 @@
-const cart = [];
+//cartController.js
+import { cart } from "../datasets/data.js";
+
 export const addItemToCart = (req, res) => {
   cart.push(req.body);
   res

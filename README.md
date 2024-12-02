@@ -48,8 +48,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mehulrana017/ecommerce-backend.git
-   cd ecommerce-backend
+   git clone https://github.com/mehulrana017/interview-ecommerce-be.git
+   cd interview-ecommerce-be
    ```
 
 2. Install dependencies:

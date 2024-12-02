@@ -61,7 +61,7 @@ yarn install
 3. Create a `.env` file in the root directory and add your environment variables:
 
 ```env
-PORT=3000
+PORT=5000
 NTH_ORDER=5  # Configure after how many orders a discount code should be generated
 ```
 
